@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Projects</title>
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id=progressbar></div>
+        <div id=scrollpath></div>
+       <header>
+            <div class="toprow">
+                <div class="topleft">
+                    <p><strong><a href="index.html" target="_blank">Shreejal Maharjan / </strong>Hungry Learner</a></p>
+                </div>
+                <div class="topright">
+                    <ul>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+       </header>
+        <div class="main">
+             <h1>Projects</h1><br><br><br>
+             <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi sint, vitae quis cupiditate ullam voluptas aliquid officia magni, id possimus vel dolor porro praesentium in dignissimos numquam, fugit ad.
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, laboriosam, fuga voluptates a, similique necessitatibus vel quidem dicta saepe quibusdam illum soluta? Sed facilis laudantium eligendi, sequi ratione totam laboriosam
+            </p><br><br>
+             <div class="row">
+                 <div class="lcol">
+                 <p>Project Name 1 <br>
+                 Role Title <br><br>
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta suscipit perferendis repellendus cupiditate maxime pariatur dicta ea, illum possimus deserunt quo voluptas voluptatem doloribus quis? Autem possimus voluptas voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt omnis soluta laboriosam accusamus amet obcaecati non unde vitae. Nam labore exercitationem fugiat officia impedit provident sit numquam corrupti facere?</p>
+                 </div>
+                 <div class="rcol">
+                    img1
+                 </div>
+             </div>
+             <div class="row">
+                <div class="lcol">
+                <p>Project Name 1 <br>
+                Role Title <br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta suscipit perferendis repellendus cupiditate maxime pariatur dicta ea, illum possimus deserunt quo voluptas voluptatem doloribus quis? Autem possimus voluptas voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt omnis soluta laboriosam accusamus amet obcaecati non unde vitae. Nam labore exercitationem fugiat officia impedit provident sit numquam corrupti facere?</p>
+                </div>
+                <div class="rcol">
+                    img2
+                </div>
+            </div>
+            <div class="row">
+                <div class="lcol">
+                <p>Project Name 1 <br>
+                Role Title <br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta suscipit perferendis repellendus cupiditate maxime pariatur dicta ea, illum possimus deserunt quo voluptas voluptatem doloribus quis? Autem possimus voluptas voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt omnis soluta laboriosam accusamus amet obcaecati non unde vitae. Nam labore exercitationem fugiat officia impedit provident sit numquam corrupti facere?</p>
+                </div>
+                <div class="rcol">
+                    img3
+                </div>
+            </div>
+            
+         </div>
+         <footer>
+            <div class="bottomrow">
+               <div class="bottomleft">
+                  <p> &copy;
+                      2021 by shreejal <br>
+                    Helloworld</p>
+                </div>
+                <div class="bottomright">
+                    <div class=bcol1>
+                        <p>Call<br>
+                        9861234567</p>
+                    </div>
+                    <div class="bcol2">
+                        <p>Write<br>
+                    shreejal27@gmail.com</p>
+                    </div>
+                    <div class="bcol3">
+                        <p>Follow <br>
+                            <a href="https://www.facebook.com/shreejalchowder/" target="_blank" class="fa fa-facebook"></a>
+                            <a href="https://www.instagram.com/shreejal27/" target="_blank" class="fa fa-instagram"></a>
+                            <a href="#" target="_blank"class="fa fa-snapchat"></a>
+                            <a href="#" target="_blank" class="fa fa-twitter"></a>
+                            <a href="#" target="_blank" class="fa fa-pinterest"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+      </footer>
+        <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight-window.innerHeight;
+        window.onscroll=function(){
+            let progressHeight=(window.pageYOffset/totalHeight)*100;
+            progress.style.height = progressHeight + "%";
+        }
+        </script>
+    </body>
+</html>

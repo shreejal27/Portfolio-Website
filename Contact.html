@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div id=progressbar></div>
+      <div id=scrollpath></div>
+     <header>
+          <div class="toprow">
+              <div class="topleft">
+                  <p><strong><a href="index.html" target="_blank">Shreejal Maharjan / </strong>Hungry Learner</a></p>
+              </div>
+              <div class="topright">
+                  <ul>
+                      <li><a href="index.html">About Me</a></li>
+                      <li><a href="Resume.html">Resume</a></li>
+                      <li><a href="Projects.html">Projects</a></li>
+                      <li><a href="Contact.html">Contacts</a></li>
+                  </ul>
+              </div>
+          </div>
+     </header>
+        <div class="main">
+        <h1>Let's talk</h1><br><br><br>
+          <form method="post">
+            <label>First name</label><br>
+            <input type="text" name="first name" placeholder="Your First name" autofocus required><br>
+            <label>Last name</label><br>
+            <input type="text" name="last name"  placeholder="Your Last name" required><br>
+            <label>Email</label><br>
+            <input type="text" name="email"  placeholder="Your email here" required><br>
+            <label>Subject</label><br>
+            <input type="text" name="subject" placeholder="Subject"><br>
+            <label>Message</label><br>
+            <textarea rows="1" cols="50" wrap="physical" name="message" placeholder="Type your message here."required></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+        <footer>
+          <div class="bottomrow">
+             <div class="bottomleft">
+                <p>&copy;
+                  2021 by shreejal <br>
+                  Helloworld</p>
+              </div>
+              <div class="bottomright">
+                  <div class=bcol1>
+                      <p>Call<br>
+                      9861234567</p>
+                  </div>
+                  <div class="bcol2">
+                      <p>Write<br>
+                  shreejal27@gmail.com</p>
+                  </div>
+                  <div class="bcol3">
+                      <p>Follow <br>
+                          <a href="https://www.facebook.com/shreejalchowder/" target="_blank" class="fa fa-facebook"></a>
+                          <a href="https://www.instagram.com/shreejal27/" target="_blank" class="fa fa-instagram"></a>
+                          <a href="#" target="_blank"class="fa fa-snapchat"></a>
+                          <a href="#" target="_blank" class="fa fa-twitter"></a>
+                          <a href="#" target="_blank" class="fa fa-pinterest"></a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+    </footer>
+      <script type="text/javascript">
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight-window.innerHeight;
+      window.onscroll=function(){
+          let progressHeight=(window.pageYOffset/totalHeight)*100;
+          progress.style.height = progressHeight + "%";
+      }
+      </script>
+    </body>
+</html>

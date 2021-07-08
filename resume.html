@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>resume</title>
+        <link rel="stylesheet" href="resume.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id=progressbar></div>
+        <div id=scrollpath></div>
+       <header>
+            <div class="toprow">
+                <div class="topleft">
+                    <p><strong><a href="index.html" target="_blank">Shreejal Maharjan / </strong>Hungry Learner</a></p>
+                </div>
+                <div class="topright">
+                    <ul>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+       </header>
+        <div class="main">
+            <h1>Resume</h1>
+            <br><br><br><br><br><br>
+            <span><strong>Experience</strong></span>
+                <a href="Projects.html" target="_blank">
+                    <button>Download CV</button></a>
+            <br><br>
+            <div class="row">
+                <div class="lcol">
+                <p><strong>2019-Present</strong> <br>
+                JOB POSITION <br><br>
+                COMPANY NAME <br>
+                COMPANY LOCATION<br></p>
+                </div>
+                <div class="rcol">
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, iure molestiae. Vitae, laudantium consequatur facilis quae minima voluptas esse eos iste corrupti nobis ut? Corporis perspiciatis sit amet praesentium fugit.</p>
+                </div>
+            </div>
+            <div class="row">
+               <div class="lcol">
+                <p><strong>2017-2019</strong> <br>
+                    JOB POSITION <br><br>
+                    COMPANY NAME <br>
+                    COMPANY LOCATION<br></p>
+               </div>
+               <div class="rcol">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>
+                </div>
+           </div>
+           <br><br><br><br><br>
+           <span><strong>Education</strong></span>
+           <br><br>
+           <div class="row">
+            <div class="lcol">
+             <p><strong>2015-2017</strong> <br>
+                 UNIVERSITY NAME <br>
+                 DEGREE LEVEL <br><br>
+                 UNIVERSITY LOCATION<br></p>
+            </div>
+            <div class="rcol">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
+              </div>
+              </div>
+              <div class="row">
+                <div class="lcol">
+                 <p><strong>2014-2015</strong> <br>
+                     UNIVERSITY NAME <br>
+                     DEGREE LEVEL <br><br>
+                     UNIVERSITY LOCATION<br></p>
+                </div>
+                <div class="rcol">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
+                  </div>
+                </div>
+    </div>
+    <footer>
+        <div class="bottomrow">
+           <div class="bottomleft">
+              <p> &copy;
+                  2021 by shreejal <br>
+                Helloworld</p>
+            </div>
+            <div class="bottomright">
+                <div class=bcol1>
+                    <p>Call<br>
+                    9861234567</p>
+                </div>
+                <div class="bcol2">
+                    <p>Write<br>
+                shreejal27@gmail.com</p>
+                </div>
+                <div class="bcol3">
+                    <p>Follow <br>
+                        <a href="https://www.facebook.com/shreejalchowder/" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/shreejal27/" target="_blank" class="fa fa-instagram"></a>
+                        <a href="#" target="_blank"class="fa fa-snapchat"></a>
+                        <a href="#" target="_blank" class="fa fa-twitter"></a>
+                        <a href="#" target="_blank" class="fa fa-pinterest"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+  </footer>
+    <script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight-window.innerHeight;
+    window.onscroll=function(){
+        let progressHeight=(window.pageYOffset/totalHeight)*100;
+        progress.style.height = progressHeight + "%";
+    }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,140 @@
+.toprow {
+  height: 100px;
+  width: 100%;
+  background-color: seashell;
+}
+.topleft {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.topleft p {
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 30px;
+}
+.topright {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+.topright ul {
+  padding-top: 3%;
+  padding-left: 30%;
+}
+.topright ul li {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  background-position: right bottom;
+}
+.topright ul li:hover {
+  background-color: #c9a9a6;
+  background: linear-gradient(to right, #c9a9a6 50%, seashell 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  color: black;
+  transition: 1s ease;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.fa {
+  padding: 22px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-snapchat,
+.fa-twitter,
+.fa-pinterest {
+  color: black;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.bottomrow {
+  height: 100px;
+  width: 100%;
+  background-color: seashell;
+  font-size: 20px;
+}
+.bottomleft {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.bottomleft p {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.bottomright {
+  height: 100%;
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.bottomright .bcol1,
+.bcol2,
+.bcol3 {
+  height: 100%;
+  width: 33%;
+  float: left;
+}
+.bottomright .bcol1 p,
+.bcol2 p,
+.bcol3 p {
+  padding-top: 15%;
+}
+.bcol3 .fa {
+  padding: 3px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.bcol3 .fa:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+#scrollpath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  z-index: 1;
+}
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, black, gray);
+  z-index: 1;
+}
+#progressbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, black, gray);
+}
+#progressbar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, black, gray);
+}

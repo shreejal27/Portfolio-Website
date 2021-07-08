@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.body {
+  height: 900px;
+  width: 100%;
+  position: relative;
+  background-color: seashell;
+}
+.col1 {
+  height: 100%;
+  width: 40%;
+  background-color: #f2d2bd;
+  float: left;
+}
+.col2 {
+  height: 100%;
+  width: 60%;
+  background-color: seashell;
+  float: left;
+}
+.body .mainbox {
+  height: 60%;
+  width: 60%;
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 15%;
+}
+.mainboxcol1 {
+  height: 100%;
+  width: 50%;
+  background-color: #c9a9a6;
+  float: left;
+  box-shadow: -10px 10px 20px 2px gray;
+}
+.mainboxcol2 {
+  height: 100%;
+  width: 50%;
+  background-color: seashell;
+  float: left;
+}
+div.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 10%;
+  margin-left: 25%;
+  background-image: url("shree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 7%;
+  text-align: center;
+}
+hr {
+  height: 0.5px;
+  width: 20%;
+  margin-top: 7%;
+  margin-left: 40%;
+  background-color: black;
+  border-color: black;
+}
+.job {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 8%;
+  text-align: center;
+}
+.iconbar {
+  height: 10%;
+  width: 100%;
+  margin-top: 10%;
+}
+.fa {
+  padding: 22px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-snapchat,
+.fa-twitter,
+.fa-pinterest {
+  color: black;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.info1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  margin: 20px;
+}
+.info2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  margin: 20px;
+}
+.button {
+  height: 17%;
+  width: 90%;
+  margin: 20px;
+  padding: 5px;
+}
+button {
+  height: 50px;
+  width: 160px;
+  margin-top: 5%;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: #ffe4c4;
+  border: transparent;
+  transition: 0.6s ease;
+  outline: none;
+}
+button:hover {
+  background-color: #c9a9a6;
+  color: black;
+}
+.para {
+  margin: 20px;
+  font-size: larger;
+}
